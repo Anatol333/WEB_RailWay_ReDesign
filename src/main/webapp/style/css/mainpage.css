@@ -1,0 +1,174 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s ease-in-out;
+
+}
+
+body {
+    width: 100%;
+    min-height: 1080px;
+    font-family: 'Roboto Slab';
+}
+
+header {
+    width: 100%;
+    min-height: 800px;
+    background-image: url("/style/img/main_img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.left {
+    float: left;
+}
+
+.allmenu {
+    padding-top: 40px;
+}
+
+.logo {
+
+    color: white;
+    text-align: center;
+    font-size: 4.5em;
+    margin-left: 2%;
+    font-weight: bold;
+
+
+}
+
+.menu {
+
+    list-style-type: none;
+    float: right;
+    margin-right: 25%;
+    padding-top: 2.5%;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    font-family: 'Roboto Slab';
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    outline: none;
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.menu li a:after {
+    background-color: white;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    transition: .5s ease-in-out;
+}
+
+.menu li a:hover:after, .menu li a:focus:after {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hello {
+    margin-top: 5%;
+    color: white;
+    padding-left: 3%;
+    width: 30%;
+    min-heigh: 100px;
+    box-shadow: -19px 5px 77px -43px #000000 inset;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 50px;
+
+}
+
+.headline {
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 100px;
+}
+
+.room {
+    width: 100%;
+    background-color: white;
+    min-height: 600px;
+}
+
+.room img {
+    float: right;
+    width: 50%;
+    height: 40%;
+    margin-top: 4%;
+    margin-right: 4%;
+
+}
+
+.title {
+    margin-top: 4%;
+
+    font-size: 3em;
+    line-height: 150px;
+    font-weight: normal;
+
+}
+
+.room .left {
+    width: 30%;
+    margin-top: 6%;
+    line-height: 40px;
+    margin-left: 10%;
+    font-size: 1.3em;
+}
+
+#service {
+    background-color: snow;
+}
+
+footer {
+    width: 100%;
+    min-height: 400px;
+    background-color: mintcream;
+}
+
+.infofooter {
+
+    width: 40%;
+    margin-left: 10%;
+    color: black;
+    padding-top: 3%;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.foottitle {
+    font-size: 2.3em;
+    font-weight: normal;
+    line-height: 80px;
+}
+
+.logofooter {
+    width: 30%;
+    padding-left: 15%;
+
+    float: right;
+}
+
+.logofooter img {
+    margin-left: 2%;
+}
+
+
+
+
