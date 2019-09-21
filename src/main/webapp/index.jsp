@@ -6,7 +6,7 @@
 <%@ include file="/WEB-INF/static/header.jsp" %>
 <div class="room">
     <img src="image/room.jpg"/>
-    <div class="left"><span class="title">Booking</span><p>We present to your attention the opportunity to view all the information about the rooms of our Guest House</p>
+    <div class="left"><span class="title">Booking Hostel Hello</span><p>We present to your attention the opportunity to view all the information about the rooms of our Guest House</p>
         <p> For more detailed information, click the button.</p><button class="learn-more" >
             <div class="circle">
                 <span class="icon arrow"></span>
