@@ -1,1 +1,0 @@
-$('.learn-more').on('click', function() { window.location = 'https://www.google.com'; });
