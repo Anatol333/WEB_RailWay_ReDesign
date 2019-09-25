@@ -14,7 +14,7 @@
                         <span class="text">youremail@email.com</span>
                     </div>
                     <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
-                        <span class="text">3-5 Business days delivery &amp; Free Returns</span>
+                        <span class="text">3-5 Coupon railway tickets &amp; Free Returns</span>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Winkel</a>
+        <a class="navbar-brand" href="index.jsp">Railway</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
@@ -31,23 +31,35 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Shop</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown04">
-                        <a class="dropdown-item" href="shop.html">Shop</a>
-                        <a class="dropdown-item" href="product-single.html">Single Product</a>
-                        <a class="dropdown-item" href="cart.html">Cart</a>
-                        <a class="dropdown-item" href="checkout.html">Checkout</a>
+                <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="booking" class="nav-link">Booking</a></li>
+                <li class="nav-item"><a href="about.jsp" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.jsp" class="nav-link">Contact</a></li>
+
+                <%--===================================================================
+                            Change language block
+                ===================================================================--%>
+                <li class="nav-item cta cta-colored">
+                    <div class="cart login-js">
+                        <div class="lang">
+                            <a href="?pageLocale=ru">RU</a>
+                            <a href="?pageLocale=en">EN</a>
+                        </div>
+                        <%--                    <c:if test="${not empty sessionScope.user}">--%>
+                        <a href="account">
+                            <%--                                ${sessionScope.user.login}--%>
+                        </a>
+                        <a href="account?action=logout">
+                            <i class="fa fa-sign-in" aria-hidden="true"></i>
+                        </a>
+                        <%--                    </c:if>--%>
+                        <%--                    <c:if test="${empty sessionScope.user}">--%>
+<%--                        <a href="account">--%>
+<%--                            <i class="fa fa-sign-out" aria-hidden="true"></i>--%>
+<%--                        </a>--%>
+                        <%--                    </c:if>--%>
                     </div>
                 </li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span
-                        class="icon-shopping_cart"></span>[0]</a></li>
-
             </ul>
         </div>
     </div>

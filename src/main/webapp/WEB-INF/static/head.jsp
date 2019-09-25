@@ -5,22 +5,28 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
-    <link rel="stylesheet" href="style/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="style/css/animate.css">
+    <link rel="stylesheet" href="style/css/plugin/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/plugin/animate.css">
 
-    <link rel="stylesheet" href="style/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style/css/magnific-popup.css">
+    <link rel="stylesheet" href="style/css/plugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/css/plugin/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/css/plugin/magnific-popup.css">
 
-    <link rel="stylesheet" href="style/css/aos.css">
+    <link rel="stylesheet" href="style/css/plugin/aos.css">
 
-    <link rel="stylesheet" href="style/css/ionicons.min.css">
+    <link rel="stylesheet" href="style/css/plugin/ionicons.min.css">
 
-    <link rel="stylesheet" href="style/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="style/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="style/css/plugin/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="style/css/plugin/jquery.timepicker.css">
 
 
-    <link rel="stylesheet" href="style/css/flaticon.css">
-    <link rel="stylesheet" href="style/css/icomoon.css">
-    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/plugin/flaticon.css">
+    <link rel="stylesheet" href="style/css/plugin/icomoon.css">
+    <link rel="stylesheet" href="style/css/plugin/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style/css/main.css"/>
+    <link rel="stylesheet" href="style/css/stations_check.css"/>
+    <link rel="stylesheet" href="style/css/reservation.css"/>
 </head>
