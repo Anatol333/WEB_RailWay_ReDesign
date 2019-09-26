@@ -32,32 +32,24 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="booking.jsp" class="nav-link">Booking</a></li>
+                <li class="nav-item"><a href="booking.jsp" class="nav-link">Booking</a></li>
                 <li class="nav-item"><a href="about.jsp" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="contact.jsp" class="nav-link">Contact</a></li>
 
                 <%--===================================================================
                             Change language block
                 ===================================================================--%>
-                <li class="nav-item cta cta-colored">
-                    <div class="cart login-js">
-                        <div class="lang">
-                            <a href="?pageLocale=ru">RU</a>
-                            <a href="?pageLocale=en">EN</a>
-                        </div>
-                        <%--                    <c:if test="${not empty sessionScope.user}">--%>
-                        <a href="account">
-                            <%--                                ${sessionScope.user.login}--%>
-                        </a>
+                <li class="nav-item">
+                    <div class="nav-link">
+                        <a href="?pageLocale=ru" class="text-warning">RU</a>
+                        <a href="?pageLocale=en" class="text-warning">EN</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link">
                         <a href="account?action=logout">
-                            <i class="fa fa-sign-in" aria-hidden="true"></i>
+                            <i class="fa fa-2x fa-sign-in" aria-hidden="true"></i>
                         </a>
-                        <%--                    </c:if>--%>
-                        <%--                    <c:if test="${empty sessionScope.user}">--%>
-<%--                        <a href="account">--%>
-<%--                            <i class="fa fa-sign-out" aria-hidden="true"></i>--%>
-<%--                        </a>--%>
-                        <%--                    </c:if>--%>
                     </div>
                 </li>
             </ul>

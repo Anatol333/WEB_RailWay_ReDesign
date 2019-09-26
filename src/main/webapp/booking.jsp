@@ -6,52 +6,54 @@
 
 <div class="block-centered-content">
     <div class="row d-flex justify-content-center">
-        <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2>Buy Tickets</h2>
-            <div class="row d-flex justify-content-center mt-5">
-                <div class="col">
-                    <form action="booking" method="POST">
-                        <%--=================================================
-                            Action : 'findTickets' will trying get account for user
-                        ==================================================--%>
-                        <input type="hidden" name="action" value="findTickets">
-
-                        <div class="form-group d-flex">
-
-                            <input id="cityStart" list="cities" type="text" name="cityStart" class="form-control ml-2"
-                                   style="width: 250px"
-                                   required/>
-                            <%--                   value="${sessionScope.cityStart}"--%>
-                            <%--                   placeholder="<fmt:message key="ticket.from" />" >--%>
-
-                            <img class="switch_img ml-2" src="style/images/reload.png"
-                                 style="width: 30px; height: 30px;"/>
-
-                            <input id="cityEnd" list="cities" type="text" name="cityEnd" class="form-control ml-2"
-                                   style="width: 250px" required/>
-                            <%--                   value="${sessionScope.cityEnd}"--%>
-                            <%--                   placeholder="<fmt:message key="ticket.destination" />"   --%>
-
-                            <input type="date" name="date" style="width: 200px" class="form-control ml-2" required/>
-                            <%--                   value="${sessionScope.date}" >--%>
-
-                            <input class="btn btn-primary px-5 ml-3" type="submit"/>
-                            <%--                   value="<fmt:message key="ticket.search" />"/>--%>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="col-md-3 text-center heading-section ftco-animate">
+            <h2>Ticket search</h2>
         </div>
     </div>
-    <%--===================================================================
-          Data List for cities
-    ===================================================================--%>
-    <datalist id="cities">
-        <%--            <c:forEach var="c" items="${requestScope.listStation}">--%>
-        <%--                <option value="${c.name}"></option>--%>
-        <%--            </c:forEach>--%>
-        <option value="test"></option>
-    </datalist>
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-9 text-center heading-section ftco-animate">
+            <form action="booking" method="POST">
+                <%--=================================================
+                    Action : 'findTickets' will trying get account for user
+                ==================================================--%>
+                <input type="hidden" name="action" value="findTickets">
+
+                <div class="form-group d-flex">
+
+                    <input id="cityStart" list="cities" type="text" name="cityStart" class="form-control ml-2"
+                           style="width: 250px"
+                           required/>
+                    <%--                   value="${sessionScope.cityStart}"--%>
+                    <%--                   placeholder="<fmt:message key="ticket.from" />" >--%>
+
+                    <img class="switch_img ml-2" src="style/images/reload.png"
+                         style="width: 30px; height: 30px;"/>
+
+                    <input id="cityEnd" list="cities" type="text" name="cityEnd" class="form-control ml-2"
+                           style="width: 250px" required/>
+                    <%--                   value="${sessionScope.cityEnd}"--%>
+                    <%--                   placeholder="<fmt:message key="ticket.destination" />"   --%>
+
+                    <input type="date" name="date" style="width: 200px" class="form-control ml-2" required/>
+                    <%--                   value="${sessionScope.date}" >--%>
+
+                    <input class="btn btn-primary ml-3" type="submit" value="Search"/>
+                    <%--                   value="<fmt:message key="ticket.search" />"/>--%>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<%--===================================================================
+      Data List for cities
+===================================================================--%>
+<datalist id="cities">
+    <%--            <c:forEach var="c" items="${requestScope.listStation}">--%>
+    <%--                <option value="${c.name}"></option>--%>
+    <%--            </c:forEach>--%>
+    <option value="test"></option>
+</datalist>
 </div>
 
 <%--===================================================================
