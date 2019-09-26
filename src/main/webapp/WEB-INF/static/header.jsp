@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="booking" class="nav-link">Booking</a></li>
+                <li class="nav-item active"><a href="booking.jsp" class="nav-link">Booking</a></li>
                 <li class="nav-item"><a href="about.jsp" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="contact.jsp" class="nav-link">Contact</a></li>
 
